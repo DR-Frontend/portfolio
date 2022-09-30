@@ -1,0 +1,30 @@
+/*** PROFILE ***/
+.profile{
+   display: initial;
+}
+.profile__wrapp{
+   grid-template-columns: 1fr;
+}
+.profile__cartoon{
+   margin-top: 100px;
+}
+.profile__cartoon img{
+   height: 300px;
+}
+
+
+
+/*** TECH ***/
+.tech__wrapp img{
+   height: 45px;
+}
+.tech__sw h2{
+   font-size: 2rem;
+}
+
+
+
+/*** COURSES ***/
+.courses__wrapp{
+   grid-template-columns: 1fr;
+}

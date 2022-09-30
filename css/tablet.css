@@ -1,0 +1,58 @@
+/*** MARQUEE ***/
+.marqueeD,
+.marqueeU{
+   background-color: var(--tertiary-color-rgba);
+}
+
+
+
+/*** TECH ***/
+.tech__wrapp img{
+   height: 100px;
+}
+
+
+/*** PROFILE ***/
+.profile__wrapp{
+   grid-template-columns: 60% 1fr;
+}
+.profile__cartoon img:nth-of-type(1){
+   opacity: 1;
+}
+.profile__cartoon img:nth-of-type(2){
+   opacity: 0;
+}
+.profile__proyects div a img{
+   opacity: .1;
+   animation: spin 6s linear infinite;
+}
+.profile__proyects div a:nth-of-type(1),
+.profile__proyects div a:nth-of-type(4){
+   background-color: var(--html-color);
+}
+.profile__proyects div a:nth-of-type(2),
+.profile__proyects div a:nth-of-type(5){
+   background-color: var(--css-color);
+}
+.profile__proyects div a:nth-of-type(3),
+.profile__proyects div a:nth-of-type(6){
+   background-color: var(--js-color);
+}
+
+/*** JOBS ***/
+.jobs__wrapp{
+   grid-template-columns: 1fr;
+}
+.job h2{
+   width: fit-content;
+   animation: rotate 2s linear infinite;
+}
+
+
+/*** COURSES ***/
+.courses__wrapp{
+   grid-template-columns: repeat(2, 1fr);
+}
+.course img{
+   animation: ring .5s linear infinite;
+}

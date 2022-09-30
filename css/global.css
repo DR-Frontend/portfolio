@@ -1,0 +1,151 @@
+:root{
+   --primary-color: #454545;
+   --primary-color-rgba: rgba(69, 69, 69, .4);
+   --secondary-color: #eeeeee;
+   --secondary-color-rgba: rgba(238, 238, 238, .4);
+   --tertiary-color: #1218c8;
+   --tertiary-color-rgba: rgba(18, 24, 200, .4);
+   --border-color: #222;
+   --bkg-color: #eee;
+   --html-color: #f16529;
+   --css-color: #2965f1;
+   --js-color: #f7df1e;
+}
+@font-face {
+   font-family: 'title';
+   src: url(../assets/fonts/Dosis-Bold.ttf);
+}
+@font-face {
+   font-family: 'text';
+   src: url(../assets/fonts/Dosis-Regular.ttf);
+}
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   margin: 0 auto;
+   scroll-behavior: smooth;
+   max-width: 1920px;
+   min-width: 320px;
+}
+body{
+   overflow-x: hidden;
+   background-color: var(--bkg-color);
+}
+img{
+   max-width: 100%;
+   height: auto;
+}
+h1,
+h2{
+   font-family: 'title', sans-serif;
+   font-size: 2.5rem;
+   color: var(--secondary-color);
+   -webkit-text-stroke: 2px var(--primary-color);
+}
+h3{
+   font-family: 'title', sans-serif;
+   font-size: 2rem;
+   color: var(--secondary-color);
+   -webkit-text-stroke: 2px var(--primary-color);
+}
+p,
+li,
+a,
+span{
+   font-family: 'text',sans-serif;
+   font-size: 1.5rem;
+}
+li{
+   list-style: none;
+}
+a{
+   display: inline-block;
+   text-decoration: none;
+}
+b{
+   font-family: 'title',sans-serif;
+   font-size: 1.5rem;
+}
+
+
+
+/*** REMARCADO DE DIVS ***/
+.bold{
+   border-radius: 5px;
+   border: 2px solid var(--border-color);
+   padding: 10px;
+   margin: 10px;
+}
+.bold-btn{
+   padding: 5px 10px;
+   margin: 5px;
+   border: 2px solid var(--border-color);
+   border-radius: 5px;
+   box-shadow: 3px 3px 0 0 var(--border-color);
+   transition: all .3s ease;
+}
+.bold-btn:hover{
+   animation: rebound .3s ease;
+   box-shadow: 6px 6px 0 0 var(--border-color);
+}
+
+
+
+/*** MARQUEE ***/
+.marqueeD,
+.marqueeU{
+   overflow: hidden;
+   margin: 80px 0 0 0;
+   padding: 10px 0;
+   transform: rotate(-1deg);
+   border-top: 2px solid var(--primary-color);
+   border-bottom: 2px solid var(--primary-color);
+   transition: .3s all ease;
+}
+.marqueeD:hover,
+.marqueeU:hover{
+   background-color: var(--tertiary-color-rgba);
+}
+.marqueeU{
+   transform: rotate(1deg);
+}
+.marquee-tl{
+   white-space: nowrap;
+   animation: toLeft 20s linear infinite;
+}
+.marquee-tr{
+   white-space: nowrap;
+   animation: toRight 20s linear infinite;
+}
+.marquee-tlc{
+   white-space: nowrap;
+   animation: toLeftC 20s linear infinite;
+}
+.marquee-trc{
+   white-space: nowrap;
+   animation: toRightC 20s linear infinite;
+}
+
+
+
+/*** BOTON HOME ***/
+.home-btn{
+   width: 70px;
+   height: 70px;
+   font-size: 2.5rem;
+   color: var(--primary-color);
+   position: sticky;
+   top: 90vh;
+   left: 94vw;
+   border-radius: 50%;
+   background-color: var(--bkg-color);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 3;
+}

@@ -1,0 +1,243 @@
+/*** MENU ***/
+.menu{
+   position: fixed;
+   top:0;
+   left: 0;
+   z-index: 9;
+   width: 100vw;
+   height: 80px;
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 2px solid black;
+   backdrop-filter: blur(15px);
+}
+.menu > a{
+   position: relative;
+   width: inherit;
+}
+.menu > a img{
+   height: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   animation: fade 12s ease infinite;
+}
+
+
+
+/*** PROFILE ***/
+.profile{
+   height: 70vh;
+   max-height: 700px;
+   margin-top: 100px;
+}
+.profile__wrapp{
+   height: 100%;
+   display: grid;
+   grid-template-columns: 70% 1fr;
+}
+.profile__cartoon{
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   transition: all .5s ease;
+}
+.profile__cartoon img{
+   height: 450px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   opacity: 1;
+   transform: translate(-50%, -50%);
+   transition: opacity .5s ease;
+}
+.profile__cartoon img:nth-of-type(1){
+   opacity: 0;
+}
+.profile__cartoon:hover img:nth-of-type(1){
+   opacity: 1;
+}
+.profile__cartoon:hover img:nth-of-type(2){
+   opacity: 0;
+}
+.profile__cartoon p{
+   font-size: 3rem;
+   color: transparent;
+   -webkit-text-stroke: 1px var(--primary-color);
+}
+.profile__cartoon h3{
+   font-size: 10rem;
+   color: transparent;
+}
+.profile__cartoon p i{
+   margin: 0px 20px;
+}
+.profile__proyects{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: background-color .5s ease;
+}
+.profile__proyects:hover{
+   background-color: var(--tertiary-color-rgba);
+}
+.profile__proyects > div h2{
+   text-align: right;
+}
+.profile__proyects div a{
+   width: 95%;
+   position: relative;
+   overflow: hidden;
+}
+.profile__proyects div a h3{
+   position: relative;
+   z-index: 2;
+}
+.profile__proyects div a img{
+   position: absolute;
+   top: -100%;
+   left: 15%;
+   width: 100%;
+   opacity: 0;
+   z-index: 1;
+}
+.profile__proyects div a:hover img{
+   opacity: .3;
+   animation: spin 6s linear infinite;
+}
+.profile__proyects div a:nth-of-type(1):hover,
+.profile__proyects div a:nth-of-type(4):hover{
+   background-color: var(--html-color);
+}
+.profile__proyects div a:nth-of-type(2):hover,
+.profile__proyects div a:nth-of-type(5):hover{
+   background-color: var(--css-color);
+}
+.profile__proyects div a:nth-of-type(3):hover,
+.profile__proyects div a:nth-of-type(6):hover{
+   background-color: var(--js-color);
+}
+
+
+
+/*** TECH ***/
+.tech{
+   margin: 10px 0 50px 0;
+}
+.tech__wrapp{
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+.tech__wrapp div{
+   display: flex;
+   justify-content: center;
+}
+.tech__wrapp img{
+   height: 150px;
+   margin: 20px;
+   transform-style: preserve-3d;
+   animation: fly 2s ease-in-out infinite;
+}
+.tech__wrapp div:nth-of-type(2) img,
+.tech__wrapp div:nth-of-type(6) img{
+   animation-delay: .3s;
+}
+.tech__wrapp div:nth-of-type(3) img,
+.tech__wrapp div:nth-of-type(7) img{
+   animation-delay: .7s;
+}
+.tech__wrapp div:nth-of-type(4) img,
+.tech__wrapp div:nth-of-type(8) img{
+   animation-delay: 1.1s;
+}
+.tech__wrapp div:nth-of-type(5) img,
+.tech__wrapp div:nth-of-type(9) img{
+   animation-delay: 1.5s;
+}
+.tech__sw{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+
+
+
+/*** JOBS ***/
+.jobs{
+   margin: 10px 0 50px 0;
+}
+.jobs__wrapp{
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+.job{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   transition: background-color .5s ease;
+}
+.job .title{
+   display: flex;
+   width: fit-content;
+   padding: 5px 20px;
+   border: 2px solid var(--primary-color);
+   border-radius: 30px;
+}
+.job p,
+.job li,
+.job b{
+   font-size: 1rem;
+}
+.job li{
+   list-style: disc;
+   margin-left: 20px;
+}
+.job:hover{
+   color: var(--secondary-color);
+   background-color: var(--tertiary-color-rgba);
+}
+.job:hover h2{
+   width: fit-content;
+   animation: rotate 2s linear infinite;
+}
+
+
+
+/*** COURSES ***/
+.courses{
+   margin: 20px 0 50px 0;
+}
+.courses__wrapp{
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+.course{
+   text-align: center;
+   transition: background-color .3s ease;
+}
+.course img{
+   height: 60px;
+}
+.course a{
+   background-color: var(--secondary-color);
+   color: var(--primary-color);
+}
+.course:hover{
+   background-color: var(--tertiary-color-rgba);
+   color: var(--secondary-color);
+}
+.course:hover img{
+   animation: ring .5s linear infinite;
+}
