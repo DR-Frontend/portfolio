@@ -1,0 +1,38 @@
+/*** WEBS ***/
+.webs > img{
+   display: block;
+   margin: 20px auto;
+   height: 70px;
+}
+.web{
+   margin-top: -4px;
+   display: grid;
+   grid-template-columns: 55% 1fr;
+   transition: all .3s ease;
+}
+.web:nth-of-type(even){
+   grid-template-columns: 1fr 55%;
+}
+.web:hover .web-img img{
+   transform: scale(1.1);
+}
+.web-img{
+   overflow: hidden;
+}
+.web-detail{
+   padding: 30px;
+   text-align: center;
+}
+.web-detail a{
+   margin-top: 10px;
+   color: var(--primary-color);
+}
+.web-detail .web-tech{
+   display: block;
+   width: 200px;
+   padding: 5px 0;
+   margin: 5px auto;
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   border-radius: 30px;
+}
