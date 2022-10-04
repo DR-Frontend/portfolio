@@ -5,22 +5,30 @@
    height: 70px;
 }
 .web{
-   margin-top: -4px;
    display: grid;
    grid-template-columns: 55% 1fr;
-   transition: all .3s ease;
+   align-items: center;
 }
 .web:nth-of-type(even){
    grid-template-columns: 1fr 55%;
 }
-.web:hover .web-img img{
-   transform: scale(1.1);
-}
 .web-img{
-   overflow: hidden;
+   perspective: 500px;
+}
+.web .web-img img{
+   transition: all .3s ease;
+   transform: rotateY(0) scale(1);
+}
+.web:hover .web-img img{
+   box-shadow: -25px 0px 20px -15px rgba(0,0,0,0.75);
+   transform: rotateY(10deg) scale(.8);
+}
+.web:nth-of-type(even):hover .web-img img{
+   box-shadow: 25px 0px 20px -15px rgba(0,0,0,0.75);
+   transform: rotateY(-10deg) scale(.8);
 }
 .web-detail{
-   padding: 30px;
+   padding: 20px 40px;
    text-align: center;
 }
 .web-detail a{

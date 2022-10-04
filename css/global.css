@@ -1,12 +1,12 @@
 :root{
    --primary-color: #454545;
    --primary-color-rgba: rgba(69, 69, 69, .4);
-   --secondary-color: #eeeeee;
-   --secondary-color-rgba: rgba(238, 238, 238, .4);
+   --secondary-color: #eee;
+   --secondary-color-rgba: rgba(238, 238, 238, .2);
    --tertiary-color: #1218c8;
    --tertiary-color-rgba: rgba(18, 24, 200, .4);
    --border-color: #222;
-   --bkg-color: #eee;
+   --bkg-color: #ffffff;
    --html-color: #f16529;
    --css-color: #2965f1;
    --js-color: #f7df1e;
@@ -87,8 +87,9 @@ b{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   border-bottom: 2px solid black;
+   border-bottom: 2px solid var(--primary-color);
    backdrop-filter: blur(15px);
+   background-color: var(--secondary-color-rgba);
 }
 .menu > a{
    position: relative;
