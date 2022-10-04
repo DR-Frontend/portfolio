@@ -14,10 +14,12 @@
 }
 @font-face {
    font-family: 'title';
+   font-display: auto;
    src: url(../assets/fonts/Dosis-Bold.ttf);
 }
 @font-face {
    font-family: 'text';
+   font-display: auto;
    src: url(../assets/fonts/Dosis-Regular.ttf);
 }
 *,
@@ -168,17 +170,22 @@ b{
 
 /*** BOTON HOME ***/
 .home-btn{
-   width: 70px;
-   height: 70px;
+   width: 50px;
+   height: 50px;
    font-size: 2.5rem;
    color: var(--primary-color);
-   position: sticky;
-   top: 88vh;
-   left: 92vw;
+   position: fixed;
+   top: 90vh;
+   left: 95vw;
    border-radius: 50%;
    background-color: var(--bkg-color);
    display: flex;
    align-items: center;
    justify-content: center;
    z-index: 3;
+   transform: rotate(-90deg);
+   border: 2px solid var(--border-color);
+}
+.home-btn h3{
+   margin-top: -7px;
 }
