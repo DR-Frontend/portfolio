@@ -110,7 +110,7 @@
    justify-content: center;
 }
 .css__vBanners{
-   grid-template-columns: repeat(auto-fill, minmax(160px, 18%));
+   grid-template-columns: repeat(auto-fill, minmax(160px, 15%));
 }
 .css__hBanners{
    grid-template-columns: repeat(auto-fill, minmax(310px, 32%));
