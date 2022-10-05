@@ -93,3 +93,40 @@
 
 
 /*** BANNERS CSS ***/
+.css{
+   margin-top: 100px;
+}
+.css > img{
+   height: 100px;
+   display: block;
+   margin: 10px auto;
+}
+.css__vBanners,
+.css__hBanners{
+   display: grid;
+   grid-auto-flow: dense;
+   gap: 15px;
+   padding: 15px 0;
+   justify-content: center;
+}
+.css__vBanners{
+   grid-template-columns: repeat(auto-fill, minmax(160px, 18%));
+}
+.css__hBanners{
+   grid-template-columns: repeat(auto-fill, minmax(310px, 32%));
+}
+.css__vBanners div,
+.css__hBanners div{
+   border: 1px solid black;
+   overflow: hidden;
+   position: relative;
+   margin: 0 auto;
+}
+.css__vBanners div{
+   width: 150px;
+   height: 500px;
+}
+.css__hBanners div{
+   width: 300px;
+   height: 350px;
+}
