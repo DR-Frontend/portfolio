@@ -21,12 +21,13 @@
 .css__hBanners{
    grid-template-columns: repeat(auto-fit, minmax(310px, auto ));
 }
-.css__vBanners div,
-.css__hBanners div{
-   border: 1px solid black;
+.css__vBanners > div,
+.css__hBanners > div{
    overflow: hidden;
    position: relative;
    margin: 0 auto;
+   border-radius: 5px;
+   border: 2px solid var(--primary-color);
 }
 .css__vBanners div{
    width: 150px;
@@ -211,4 +212,177 @@
  @keyframes downToUp2 {
    0% {top: 495px}
    100% {top: 360px}
+ }
+
+
+
+ /* VIDEOJUEGOS */
+ .vj_banner{
+   background: linear-gradient(0deg, rgba(172,38,34,1) 0%, rgba(231,54,49,1) 100%);
+ }
+ .vj_banner__text, .vj_banner__btn, .vj_banner__img{
+   position: absolute;
+ }
+ .vj_banner__text{
+   font-family: sans-serif;
+   font-size: .9rem;
+   text-align: center;
+   top: 40px;
+ }
+ .vj_banner__btn{
+   top: 150px;
+   left: 20px;
+   font-family: sans-serif;
+   font-size: .8rem;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 5px 20px;
+   border: 1px solid white;
+   color: white;
+   border-radius: 10px;
+   transition: all .5s ease;
+ }
+ .vj_banner__btn:hover{
+   background-color: white;
+   color: rgba(172,38,34);
+ }
+ .vj_banner__img:nth-of-type(1){
+   top: 370px;
+   left: 10px;
+   width: 130px;
+   z-index: 2;
+ }
+ .vj_banner__img:nth-of-type(2){
+   top: 220px;
+   left: 25px;
+   width: 100px;
+   z-index: 1;
+   animation: UpDown 10s ease infinite;
+ }
+ @keyframes UpDown {
+   0%{top: 220px;}
+   50%{top: 220px;}
+   60%{top: 380px;}
+   90%{top: 380px;}
+   100%{top: 220px;}
+ }
+ 
+
+
+ /* BIOAX */
+ .bioax{
+   position: relative;
+   padding: 55px .5rem;
+   background-color: rgb(191, 241, 238);
+ }
+ .bioax p,
+ .bioax a{
+   font-size: .8rem;
+   font-family: sans-serif;
+   color: #333;
+   text-align: center;
+ }
+ .bioax p:nth-of-type(1){
+   font-size: 3rem;
+ }
+ .bioax a{
+   display: block;
+   position: absolute;
+   left: 15%;
+   bottom: 25%;
+   border: 1px solid #333;
+   border-radius: 30px;
+   padding: 5px 20px;
+   transition: background-color .5s ease;
+ }
+ .bioax a:hover{
+   background-color: #333;
+   color: rgb(191,241,238);
+ }
+ .bioax-logo{
+   position: relative;
+   top: 20px;
+ }
+ .bioax-logo img{
+   position: absolute;
+ }
+ .bioax-logo img:nth-of-type(1),
+ .bioax-logo img:nth-of-type(2),
+ .bioax-logo img:nth-of-type(3){
+   width: 40px;
+   top: 60px;
+ }
+ .bioax-logo img:nth-of-type(3){
+   left: 90px;
+ }
+ .bioax-logo img:nth-of-type(2){
+   width: 50px;
+   top: 0px;
+   left: 41px;
+   transform: rotate(0deg);
+   animation: rodar 10s linear infinite;
+ }
+ @keyframes rodar {
+   0% {transform: rotate(0deg);}
+   100% {transform: rotate(360deg);}
+ }
+
+
+
+ /* MEMBRESIA SAMS */
+ .mp_banner{
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33,103,160,1) 100%);
+ }
+ .mp_banner{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ .mp_banner__card{
+   position: relative;
+   z-index: 2;
+   margin: 10px 0;
+   width: 200px;
+   animation: ring 5s ease infinite;
+ }
+ @keyframes ring {
+   0%{transform: rotate(0deg);}
+   89%{transform: rotate(0deg);}
+   90%{transform: rotate(3deg);}
+   92%{transform: rotate(-3deg);}
+   94%{transform: rotate(3deg);}
+   96%{transform: rotate(-3deg);}
+   98%{transform: rotate(3deg);}
+   100%{transform: rotate(0deg);}
+ }
+ .mp_banner__text{
+   font-family: sans-serif;
+   font-size: .8rem;
+ }
+ .mp_banner__text:nth-of-type(1){
+   color: #fff;
+   font-weight: bold;
+ }
+ .mp_banner__btn{
+   padding: 6px 25px;
+   border-radius: 25px;
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: bold;
+   color: #fff;
+   background-color: #80bd33;
+   transition: all .5s ease;
+ }
+ .mp_banner__btn:hover{
+   background-color: #85c439;
+ }
+ .mp_banner__img{
+   position: absolute;
+   top: 65px;
+   left: 120px;
+   width: 250px;
+   opacity: .2;
+   z-index: 1;
  }
