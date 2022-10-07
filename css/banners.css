@@ -1,0 +1,110 @@
+/*** BANNERS CSS ***/
+.css{
+   margin-top: 100px;
+}
+.css > img{
+   height: 100px;
+   display: block;
+   margin: 10px auto;
+}
+.css__vBanners,
+.css__hBanners{
+   display: grid;
+   grid-auto-flow: dense;
+   gap: 15px;
+   padding: 15px 0;
+   justify-content: center;
+}
+.css__vBanners{
+   grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+}
+.css__hBanners{
+   grid-template-columns: repeat(auto-fit, minmax(310px, auto ));
+}
+.css__vBanners div,
+.css__hBanners div{
+   border: 1px solid black;
+   overflow: hidden;
+   position: relative;
+   margin: 0 auto;
+}
+.css__vBanners div{
+   width: 150px;
+   height: 500px;
+}
+.css__hBanners div{
+   width: 300px;
+   height: 350px;
+}
+
+
+
+/* PARIS MABEL*/
+ .pm_banner__text, .pm_banner__btn, .pm_banner__model{
+   position: absolute;
+ }
+ .pm_banner__text{
+   font-family: sans-serif;
+   color: black;
+   font-weight: bold;
+ }
+ .pm_banner__text:nth-child(1){
+   font-size: 4.4rem;
+   top: 0;
+   left: 5px;
+ }
+ .pm_banner__text:nth-child(2){
+   font-size: 1.4rem;
+   top: 70px;
+   left: 5px;
+ }
+ .pm_banner__text:nth-child(3){
+   font-size: 1.1rem;
+   font-weight: lighter;
+   top: 95px;
+   left: 5px;
+ }
+ .pm_banner__btn{
+   padding: 5px 25px;
+   border: 1px solid black;
+   border-radius: 10px;
+   color: black;
+   background-color: white;
+   font-family: sans-serif;
+   font-weight: lighter;
+   font-size: .7em;
+   top: 130px;
+   left: 12px;
+   z-index: 2;
+   transition: all .5s ease;
+ }
+ .pm_banner__btn:hover{
+   background-color: black;
+   color: white;
+ }
+ .pm_banner__model:nth-of-type(1){
+   top: 200px;
+   left: 30px;
+   animation: hide1 7s infinite ease;
+ }
+ @keyframes hide1 {
+   0% {opacity: 1;}
+   40% {opacity: 1;}
+   50% {opacity: 0;}
+   90% {opacity: 0;}
+   100% {opacity: 1;}
+ }
+ .pm_banner__model:nth-of-type(2){
+   top: 196px;
+   left: -40px;
+   width: 190px;
+   opacity: 0;
+   animation: hide2 7s infinite ease;
+ }
+ @keyframes hide2 {
+   0% {opacity: 0;}
+   40% {opacity: 0;}
+   50% {opacity: 1;}
+   90% {opacity: 1;}
+   100% {opacity: 0;}
+ }
