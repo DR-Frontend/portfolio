@@ -1,6 +1,6 @@
 :root{
    --primary-color: #454545;
-   --primary-color-rgba: rgba(69, 69, 69, .4);
+   --primary-color-rgba: rgba(69, 69, 69, .6);
    --secondary-color: #eee;
    --secondary-color-rgba: rgba(238, 238, 238, .2);
    --tertiary-color: #1218c8;
@@ -135,16 +135,9 @@ b{
 .marqueeD,
 .marqueeU{
    overflow: hidden;
-   margin: 80px 0 0 0;
    padding: 10px 0;
    transform: rotate(-1deg);
-   border-top: 2px solid var(--primary-color);
-   border-bottom: 2px solid var(--primary-color);
    transition: .3s all ease;
-}
-.marqueeD:hover,
-.marqueeU:hover{
-   background-color: var(--tertiary-color-rgba);
 }
 .marqueeU{
    transform: rotate(1deg);

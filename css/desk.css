@@ -2,7 +2,13 @@
 .profile{
    height: 70vh;
    max-height: 700px;
-   margin-top: 100px;
+   margin-top: 80px;
+   padding-bottom: 50px;
+   background-image: url('../assets/img/DivBkgLight.webp');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .profile__wrapp{
    height: 100%;
@@ -54,7 +60,7 @@
    transition: background-color .5s ease;
 }
 .profile__proyects:hover{
-   background-color: var(--tertiary-color-rgba);
+   background-color: var(--primary-color-rgba);
 }
 .profile__proyects > div h2{
    text-align: right;
@@ -99,11 +105,19 @@
 
 /*** TECH ***/
 .tech{
-   margin: 10px 0 50px 0;
+   margin-top: -25px;
+   padding: 10px 0 80px 0;
+   clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 96%);
+   background-image: url('../assets/img/DivBkgDark.webp');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .tech__wrapp{
    width: 80%;
    margin: auto;
+   margin-top: 20px;
    display: grid;
    grid-template-columns: repeat(5, 1fr);
 }
@@ -143,11 +157,18 @@
 
 /*** JOBS ***/
 .jobs{
-   margin: 10px 0 50px 0;
+   margin-top: -35px;
+   padding: 20px 0 50px 0;
+   background-image: url('../assets/img/DivBkgLight.webp');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .jobs__wrapp{
    width: 80%;
    margin: auto;
+   margin-top: 50px;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
 }
@@ -175,13 +196,15 @@
    margin-left: 20px;
 }
 .job:hover{
+   animation: rebound .3s ease;
    color: var(--secondary-color);
-   background-color: var(--tertiary-color-rgba);
+   background-color: var(--primary-color-rgba);
 }
 .job:hover h2{
    width: fit-content;
    animation: rotate 2s linear infinite;
 }
+
 
 
 
