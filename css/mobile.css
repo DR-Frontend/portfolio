@@ -4,6 +4,7 @@
 }
 .profile__wrapp{
    grid-template-columns: 1fr;
+   margin-top: 75px;
 }
 .profile__cartoon{
    margin-top: 20px;

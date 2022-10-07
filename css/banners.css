@@ -96,7 +96,7 @@
    100% {opacity: 1;}
  }
  .pm_banner__model:nth-of-type(2){
-   top: 196px;
+   top: 200px;
    left: -40px;
    width: 190px;
    opacity: 0;
@@ -386,3 +386,49 @@
    opacity: .2;
    z-index: 1;
  }
+
+
+
+/* LOS MOSTROS */
+.tr_banner{
+   background: radial-gradient(circle, rgba(108,121,75,1) 0%, rgba(59,69,33,1) 100%);
+}
+.tr_banner > div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 180px;
+   padding-top: 20px;
+}
+.tr_banner > div img{
+   position: absolute;
+}
+.tr_banner > div img:nth-child(1){
+   width: 130px;
+}
+.tr_banner > div img:nth-child(2){
+   width: 180px;
+   animation: rodar2 15s linear infinite;
+}
+@keyframes rodar2{
+   0% {transform: rotate(0deg);}
+   100% {transform: rotate(-360deg);}
+ }
+.tr_banner p{
+   margin-top: 20px;
+   font-family: sans-serif;
+   text-align: center;
+   font-size: .9rem;
+}
+.tr_banner a{
+   font-family: sans-serif;
+   margin: auto;
+   display: block;
+   border: 1px solid white;
+   width: fit-content;
+   padding: 10px 30px;
+   border-radius: 30px;
+   font-size: 1rem;
+   color: white;
+   margin-top: 15px;
+}
