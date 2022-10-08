@@ -1,12 +1,8 @@
-/*** MARQUEE ***/
-.marqueeD,
-.marqueeU{
-   background-color: var(--tertiary-color-rgba);
-}
-
-
-
 /*** TECH ***/
+.tech{
+   margin-top: -25px;
+   padding: 20px 0 80px 0;
+}
 .tech__wrapp img{
    height: 100px;
 }
@@ -42,8 +38,15 @@
 }
 
 /*** JOBS ***/
+.jobs{
+   padding: 30px 0 80px 0;
+}
 .jobs__wrapp{
    grid-template-columns: 1fr;
+}
+.job{
+   color: var(--secondary-color);
+   background-color: var(--primary-color-rgba);
 }
 .job h2{
    width: fit-content;

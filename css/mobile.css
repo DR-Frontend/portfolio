@@ -1,6 +1,7 @@
 /*** PROFILE ***/
 .profile{
-   display: initial;
+   display: inline-table;
+   margin-top: 0;
 }
 .profile__wrapp{
    grid-template-columns: 1fr;
@@ -26,6 +27,12 @@
 
 
 /*** JOBS ***/
+.job{
+   margin-left: 0;
+}
+.job h2{
+   font-size: 2rem;
+}
 .job p,
 .job b{
    font-size: .7rem;

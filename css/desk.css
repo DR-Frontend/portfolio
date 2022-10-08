@@ -230,7 +230,7 @@
    color: var(--primary-color);
 }
 .course:hover{
-   background-color: var(--tertiary-color-rgba);
+   background-color: var(--primary-color-rgba);
    color: var(--secondary-color);
 }
 .course:hover img{
