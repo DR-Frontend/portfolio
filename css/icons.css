@@ -1,0 +1,20 @@
+.icons__wrapp{
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+}
+.icons__wrapp h2{
+   text-align: center;
+}
+.icons__list{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+}
+.icons__list li{
+   height: 100px;
+   font-size: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+

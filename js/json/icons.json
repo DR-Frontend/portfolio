@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "html"
+  },
+  {
+    "id": 2,
+    "name": "css"
+  },
+  {
+    "id": 3,
+    "name": "js"
+  },
+  {
+    "id": 4,
+    "name": "ai"
+  },
+  {
+    "id": 5,
+    "name": "xd"
+  },
+  {
+    "id": 6,
+    "name": "ps"
+  },
+  {
+    "id": 7,
+    "name": "wordpress"
+  },
+  {
+    "id": 8,
+    "name": "linkedin"
+  },
+  {
+    "id": 9,
+    "name": "behance"
+  },
+  {
+    "id": 10,
+    "name": "codepen"
+  },
+  {
+    "id": 11,
+    "name": "home"
+  },
+  {
+    "id": 12,
+    "name": "certification"
+  },
+  {
+    "id": 13,
+    "name": "cv"
+  },
+  {
+    "id": 14,
+    "name": "goal"
+  },
+  {
+    "id": 15,
+    "name": "language"
+  },
+  {
+    "id": 16,
+    "name": "laptop"
+  },
+  {
+    "id": 17,
+    "name": "mail"
+  },
+  {
+    "id": 18,
+    "name": "menu"
+  },
+  {
+    "id": 19,
+    "name": "ok"
+  },
+  {
+    "id": 20,
+    "name": "phone"
+  },
+  {
+    "id": 21,
+    "name": "portfolio"
+  },
+  {
+    "id": 22,
+    "name": "profile"
+  },
+  {
+    "id": 23,
+    "name": "search"
+  },
+  {
+    "id": 24,
+    "name": "semicolon"
+  },
+  {
+    "id": 25,
+    "name": "slash"
+  },
+  {
+    "id": 26,
+    "name": "watch"
+  },
+  {
+    "id": 27,
+    "name": "cinema"
+  },
+  {
+    "id": 28,
+    "name": "ball"
+  },
+  {
+    "id": 29,
+    "name": "clock"
+  },
+  {
+    "id": 30,
+    "name": "control"
+  },
+  {
+    "id": 31,
+    "name": "degree"
+  },
+  {
+    "id": 32,
+    "name": "123"
+  },
+  {
+    "id": 33,
+    "name": "abc"
+  },
+  {
+    "id": 34,
+    "name": "headphones"
+  },
+  {
+    "id": 35,
+    "name": "idea"
+  },
+  {
+    "id": 36,
+    "name": "leaf"
+  },
+  {
+    "id": 37,
+    "name": "location"
+  },
+  {
+    "id": 38,
+    "name": "mouse"
+  },
+  {
+    "id": 39,
+    "name": "note"
+  },
+  {
+    "id": 40,
+    "name": "share"
+  },
+  {
+    "id": 41,
+    "name": "pen"
+  },
+  {
+    "id": 42,
+    "name": "pencil"
+  },
+  {
+    "id": 43,
+    "name": "pointer"
+  },
+  {
+    "id": 44,
+    "name": "rocket"
+  },
+  {
+    "id": 45,
+    "name": "love"
+  },
+  {
+    "id": 46,
+    "name": "rhombus"
+  },
+  {
+    "id": 47,
+    "name": "square"
+  },
+  {
+    "id": 48,
+    "name": "circle"
+  },
+  {
+    "id": 49,
+    "name": "triangle"
+  },
+  {
+    "id": 50,
+    "name": "security"
+  },
+  {
+    "id": 51,
+    "name": "virus"
+  },
+  {
+    "id": 52,
+    "name": "warning"
+  },
+  {
+    "id": 53,
+    "name": "compass"
+  },
+  {
+    "id": 54,
+    "name": "currency"
+  },
+  {
+    "id": 55,
+    "name": "draw"
+  },
+  {
+    "id": 56,
+    "name": "exclamation"
+  },
+  {
+    "id": 57,
+    "name": "feather"
+  },
+  {
+    "id": 58,
+    "name": "file"
+  },
+  {
+    "id": 59,
+    "name": "folder"
+  },
+  {
+    "id": 60,
+    "name": "io"
+  },
+  {
+    "id": 61,
+    "name": "key"
+  },
+  {
+    "id": 62,
+    "name": "map"
+  },
+  {
+    "id": 63,
+    "name": "microphone"
+  },
+  {
+    "id": 64,
+    "name": "sun"
+  },
+  {
+    "id": 65,
+    "name": "moon"
+  },
+  {
+    "id": 66,
+    "name": "star"
+  },
+  {
+    "id": 67,
+    "name": "pizza"
+  },
+  {
+    "id": 68,
+    "name": "qr"
+  },
+  {
+    "id": 69,
+    "name": "question"
+  },
+  {
+    "id": 70,
+    "name": "speed"
+  },
+  {
+    "id": 71,
+    "name": "tag"
+  },
+  {
+    "id": 72,
+    "name": "wand"
+  },
+  {
+    "id": 73,
+    "name": "wifi"
+  },
+  {
+    "id": 74,
+    "name": "trash"
+  },
+  {
+    "id": 75,
+    "name": "rewind"
+  },
+  {
+    "id": 76,
+    "name": "play"
+  },
+  {
+    "id": 77,
+    "name": "forward"
+  },
+  {
+    "id": 78,
+    "name": "stop"
+  },
+  {
+    "id": 79,
+    "name": "pause"
+  },
+  {
+    "id": 80,
+    "name": "reload"
+  },
+  {
+    "id": 81,
+    "name": "close"
+  },
+  {
+    "id": 82,
+    "name": "cursor"
+  },
+  {
+    "id": 83,
+    "name": "github"
+  },
+  {
+    "id": 84,
+    "name": "setting"
+  },
+  {
+    "id": 85,
+    "name": "terminal"
+  }
+]
