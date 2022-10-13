@@ -130,7 +130,7 @@ b{
 .marqueeD,
 .marqueeU{
    overflow: hidden;
-   padding: 10px 0;
+   padding: 20px 0;
    transform: rotate(-1deg);
    transition: .3s all ease;
 }
