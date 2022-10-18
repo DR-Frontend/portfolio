@@ -1,7 +1,7 @@
 .icons__wrapp{
    width: 80%;
    margin: auto;
-   margin-top: 100px;
+   margin: 100px auto;
 }
 .icons__wrapp h2{
    text-align: center;
@@ -17,7 +17,6 @@
    align-items: center;
    justify-content: center;
 }
-
 .ilustrations__list{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 20%));
@@ -25,5 +24,8 @@
    justify-content: center;
 }
 .icons__wrapp a{
-   margin: auto;
+   display: block;
+   width: 200px;
+   margin: 20px auto;
+   text-align: center;
 }
