@@ -10,6 +10,7 @@
    --html-color: #f16529;
    --css-color: #2965f1;
    --js-color: #f7df1e;
+   --js-color-rgba: rgba(247, 223, 30, .4);
    --il-color: #69a32b;
 }
 @font-face {

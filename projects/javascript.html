@@ -7,10 +7,46 @@
    <title>Javascript</title>
    <link rel="stylesheet" href="../css/global.css">
    <link rel="stylesheet" href="../css/javascript.css">
+   <link rel="stylesheet" href="../css/animations.css">
    <link rel="stylesheet" href="../libs/dr-font/style.css">
    <script defer src="../js/ejercicios.js"></script>
 </head>
+
 <body>
    
+   <a href="#" class="home-btn">
+      <h2>&gt&gt</h2>
+   </a>
+
+   <section id="menu" class="menu">
+      <a href="https://dr-frontend.github.io/portfolio">
+         <img src="../assets/svg/logo_html.svg" alt="">
+         <img src="../assets/svg/logo_css.svg" alt="">
+         <img src="../assets/svg/logo_js.svg" alt="">
+      </a>
+   </section>
+
+   <section id="js" class="js">
+      <h2>JAVASCRIPT</h2><br>
+
+      <div class="js__wrapp">
+         <details open class="js__details bold">
+            <summary> <i class="icon-function"></i> Operaciones Aritméticas</summary><br>
+               <div class="js_operaciones">
+                  <input type="number" id="operadorA" placeholder="Número 1" class="bold"><span id="operacion"></span>
+                  <input type="number" id="operadorB" placeholder="Número 2" class="bold"><br><br>
+                  <button onclick="sumar()" class="bold-btn">Sumar</button>
+                  <button onclick="restar()" class="bold-btn">Restar</button>
+                  <button onclick="multiplicar()" class="bold-btn">Multiplicar</button>
+                  <button onclick="dividir()" class="bold-btn">Dividir</button>
+                  <p id="resultado"></p>
+               </div>
+         </details>
+         <details class="js__details bold">
+            <summary>Ejercicio 2</summary>
+         </details>
+      </div>
+   </section>
+
 </body>
 </html>
