@@ -11,24 +11,40 @@ button{
 }
 summary{
    font-size: 1.25rem;
+   cursor: pointer;
 }
 input{
    text-align: center;
+}
+input:focus-visible{
+   outline: none;
 }
 
 
 
 /*** JS ***/
 .js{
-   margin-top: 100px;
+   margin: 100px 0 60px;
 }
 .js > h2{
    font-size: 5rem;
    color: var(--js-color);
+}
+.js__wrapp{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 70%));
+   justify-content: center;
 }
 .js__details{
    background-color: var(--js-color);
 }
 .js__details summary{
    text-align: left;
+}
+
+@media(max-width: 768px){
+   .js > h2{
+      font-size: 3rem;
+      color: var(--js-color);
+   }
 }

@@ -30,20 +30,26 @@
       <h2>JAVASCRIPT</h2><br>
 
       <div class="js__wrapp">
-         <details open class="js__details bold">
+         <details class="js__details bold">
             <summary> <i class="icon-function"></i> Operaciones Aritméticas</summary><br>
-               <div class="js_operaciones">
-                  <input type="number" id="operadorA" placeholder="Número 1" class="bold"><span id="operacion"></span>
-                  <input type="number" id="operadorB" placeholder="Número 2" class="bold"><br><br>
-                  <button onclick="sumar()" class="bold-btn">Sumar</button>
-                  <button onclick="restar()" class="bold-btn">Restar</button>
-                  <button onclick="multiplicar()" class="bold-btn">Multiplicar</button>
-                  <button onclick="dividir()" class="bold-btn">Dividir</button>
-                  <p id="resultado"></p>
-               </div>
+            <div class="js_operaciones">
+               <input type="number" id="operadorA" placeholder="Número 1" class="bold"><span id="operacion"></span>
+               <input type="number" id="operadorB" placeholder="Número 2" class="bold"><br>
+               <button onclick="sumar()" class="bold-btn">Sumar</button>
+               <button onclick="restar()" class="bold-btn">Restar</button>
+               <button onclick="multiplicar()" class="bold-btn">Multiplicar</button>
+               <button onclick="dividir()" class="bold-btn">Dividir</button>
+               <p id="resultado"></p>
+            </div>
          </details>
          <details class="js__details bold">
-            <summary>Ejercicio 2</summary>
+            <summary><i class="icon-function"></i> Número mayor</summary><br>
+            <div class="js__mayorQue">
+               <input type="number" id="numero1" placeholder="Primer número" class="bold">
+               <input type="number" id="numero2" placeholder="Segundo número" class="bold"><br>
+               <button onclick="comprobar()" class="bold-btn">Comprobar números</button>
+               <p id="respuesta"></p>
+            </div>
          </details>
       </div>
    </section>
