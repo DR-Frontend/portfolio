@@ -5,7 +5,8 @@ body{
 }
 summary,
 input,
-button{
+button,
+legend{
    font-size: 1.15rem;
    font-family: 'text';
 }
@@ -13,6 +14,18 @@ summary{
    text-transform: uppercase;
    font-size: 1.25rem;
    cursor: pointer;
+}
+fieldset{
+   margin: 10px auto;
+   padding: 0 10px 10px;
+   width: 80%;
+   border-radius: 5px;
+   border-color: var(--primary-color);
+}
+legend{
+   padding: 0 5px;
+   font-size: .9rem;
+   text-transform: uppercase;
 }
 input{
    text-align: center;
@@ -41,6 +54,22 @@ input:focus-visible{
 }
 .js__details summary{
    text-align: left;
+}
+.js__colores .lienzo{
+   width: 200px;
+   height: 100px;
+   margin: 10px auto;
+   background-color: white;
+}
+.js__twitter .msj{
+   width: 80%;
+}
+.view{
+   animation: view 1.5s ease;
+}
+@keyframes view {
+   from{opacity: 0;}
+   to{opacity: 1;}
 }
 
 @media(max-width: 768px){

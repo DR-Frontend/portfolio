@@ -119,6 +119,7 @@ b{
    border-radius: 5px;
    box-shadow: 3px 3px 0 0 var(--border-color);
    transition: all .3s ease;
+   cursor: pointer;
 }
 .bold-btn:hover{
    animation: rebound .3s ease;

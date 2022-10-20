@@ -18,7 +18,7 @@
    transition: all .5s ease;
 }
 .profile__cartoon img{
-   height: 450px;
+   height: 400px;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -189,7 +189,6 @@
    margin-left: 20px;
 }
 .job:hover{
-   animation: rebound .3s ease;
    color: var(--secondary-color);
    background-color: var(--primary-color-rgba);
 }
