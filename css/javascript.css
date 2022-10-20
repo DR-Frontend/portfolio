@@ -10,6 +10,7 @@ button{
    font-family: 'text';
 }
 summary{
+   text-transform: uppercase;
    font-size: 1.25rem;
    cursor: pointer;
 }
@@ -43,6 +44,9 @@ input:focus-visible{
 }
 
 @media(max-width: 768px){
+   summary{
+      font-size: 1rem;
+   }
    .js > h2{
       font-size: 3rem;
       color: var(--js-color);

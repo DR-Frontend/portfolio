@@ -33,6 +33,7 @@
          <details class="js__details bold">
             <summary> <i class="icon-function"></i> Operaciones Aritméticas</summary><br>
             <div class="js_operaciones">
+               <p>Suma, resta, multiplicación o división de 2 números.</p>
                <input type="number" id="operadorA" placeholder="Número 1" class="bold"><span id="operacion"></span>
                <input type="number" id="operadorB" placeholder="Número 2" class="bold"><br>
                <button onclick="sumar()" class="bold-btn">Sumar</button>
@@ -42,13 +43,25 @@
                <p id="resultado"></p>
             </div>
          </details>
+
          <details class="js__details bold">
             <summary><i class="icon-function"></i> Número mayor</summary><br>
             <div class="js__mayorQue">
+               <p>Comparar 2 números y determinar cuál es mayor.</p>
                <input type="number" id="numero1" placeholder="Primer número" class="bold">
                <input type="number" id="numero2" placeholder="Segundo número" class="bold"><br>
                <button onclick="comprobar()" class="bold-btn">Comprobar números</button>
                <p id="respuesta"></p>
+            </div>
+         </details>
+
+         <details class="js__details bold">
+            <summary><i class="icon-function"></i> Calificación</summary><br>
+            <div class="js__calificacion">
+               <p>En un rango de 0 a 10 escribe una 'calificación' para mostrar el desempeño.</p>
+               <input type="number" id="valor" placeholder="Calificación" class="bold"><br>
+               <button onclick="calificar()" class="bold-btn">Calificar</button>
+               <p id="calificacion"></p>
             </div>
          </details>
       </div>

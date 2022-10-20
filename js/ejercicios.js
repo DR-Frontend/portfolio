@@ -53,4 +53,21 @@ const comprobar = () => {
 
 
 
-/***  ***/
+/*** CALIFICACION ***/
+const calificar = () => {
+   let valor = Number(document.querySelector('#valor').value)
+
+   if(valor < 0 || valor > 10){
+      document.querySelector('#calificacion').innerHTML = `<br><p>El valor debe ser entre 0 y 10</p>`
+   }else if(valor <= 3) {
+      document.querySelector('#calificacion').innerHTML = `<br><p>Desempeño Deficiente 😣</p>`
+   }else if(valor <= 5){
+      document.querySelector('#calificacion').innerHTML = `<br><p>Desempeño Insuficiente 🙁</p>`
+   }else if(valor <= 7){
+      document.querySelector('#calificacion').innerHTML = `<br><p>Desempeño Regular 😐</p>`
+   }else if(valor <= 9){
+      document.querySelector('#calificacion').innerHTML = `<br><p>Desempeño Excelente 😃</p>`
+   }else if(valor == 10){
+      document.querySelector('#calificacion').innerHTML = `<br><p>Desempeño Sobresaliente 😎</p>`
+   }
+}
