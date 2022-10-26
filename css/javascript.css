@@ -84,10 +84,8 @@ input:focus-visible{
 /*** JS - POKEFAKEMON ***/
 .js__pokefakemon{
    display: grid;
-   grid-template-columns: minmax(250px, 300px);
    height: auto;
-   width: max-content;
-   margin: auto;
+   grid-template-columns: minmax(auto, 350px);
 }
 .monster1,
 .monster2{
@@ -99,20 +97,13 @@ input:focus-visible{
    order: 2;
    align-items: center;
 }
-.m1_render{
+.m1_render,
+.m2_render{
    width: 50px;
-   height: 50px;
-   background-color: red;
 }
 .monster2{
    order: 1;
    justify-content: flex-end;
-}
-.m2_render{
-   width: 50px;
-   height: 50px;
-   border-radius: 50%;
-   background-color: blue;
 }
 .m1_hp,
 .m2_hp{
@@ -148,11 +139,11 @@ input:focus-visible{
 }
 @keyframes hitR {
    0% {transform: translate(0,0)}
-   50% {transform: translate(400%,-150%);}
+   50% {transform: translate(300%,-150%);}
    100% {transform: translate(0,0)}
 }
 @keyframes hitL {
    0% {transform: translate(0,0)}
-   50% {transform: translate(-400%,150%);}
+   50% {transform: translate(-300%,150%);}
    100% {transform: translate(0,0)}
 }
