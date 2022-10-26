@@ -46,7 +46,7 @@ input:focus-visible{
 }
 .js__wrapp{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 70%));
+   grid-template-columns: repeat(auto-fit, minmax(320px, 80%));
    justify-content: center;
 }
 .js__details{
@@ -82,10 +82,9 @@ input:focus-visible{
    }
 }
 /*** JS - POKEFAKEMON ***/
-.js__pokefakemon{
+.screen{
    display: grid;
-   height: auto;
-   grid-template-columns: minmax(auto, 350px);
+   border: 2px dashed var(--primary-color);
 }
 .monster1,
 .monster2{
@@ -116,7 +115,6 @@ input:focus-visible{
    order: 3;
    padding: 15px;
    text-align: center;
-   border: 2px dashed var(--primary-color);
 }
 .btn-atk,
 .btn-atk2{
@@ -139,11 +137,11 @@ input:focus-visible{
 }
 @keyframes hitR {
    0% {transform: translate(0,0)}
-   50% {transform: translate(300%,-150%);}
+   50% {transform: translate(150%,-50%);}
    100% {transform: translate(0,0)}
 }
 @keyframes hitL {
    0% {transform: translate(0,0)}
-   50% {transform: translate(-300%,150%);}
+   50% {transform: translate(-150%,50%);}
    100% {transform: translate(0,0)}
 }
