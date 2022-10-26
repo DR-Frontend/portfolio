@@ -81,3 +81,78 @@ input:focus-visible{
       color: var(--js-color);
    }
 }
+/*** JS - POKEFAKEMON ***/
+.js__pokefakemon{
+   display: grid;
+   grid-template-columns: minmax(250px, 300px);
+   height: auto;
+   width: max-content;
+   margin: auto;
+}
+.monster1,
+.monster2{
+   padding: 15px;
+   display: flex;
+   align-items: center;
+}
+.monster1{
+   order: 2;
+   align-items: center;
+}
+.m1_render{
+   width: 50px;
+   height: 50px;
+   background-color: red;
+}
+.monster2{
+   order: 1;
+   justify-content: flex-end;
+}
+.m2_render{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: blue;
+}
+.m1_hp,
+.m2_hp{
+   margin: 0 5px;
+   padding: 5px 10px;
+   border: 1px solid black;
+   border-radius: 30px;
+}
+.panel{
+   order: 3;
+   padding: 15px;
+   text-align: center;
+   border: 2px dashed var(--primary-color);
+}
+.btn-atk,
+.btn-atk2{
+   padding: 5px;
+}
+.disabled{
+   pointer-events: none;
+   color: gray;
+   text-decoration: line-through;
+}
+.fade{
+   opacity: 0;
+   transition: all 2s ease;
+}
+.atk{
+   animation: hitR .5s ease;
+}
+.atk2{
+   animation: hitL .5s ease;
+}
+@keyframes hitR {
+   0% {transform: translate(0,0)}
+   50% {transform: translate(400%,-150%);}
+   100% {transform: translate(0,0)}
+}
+@keyframes hitL {
+   0% {transform: translate(0,0)}
+   50% {transform: translate(-400%,150%);}
+   100% {transform: translate(0,0)}
+}

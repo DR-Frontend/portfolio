@@ -102,7 +102,7 @@ const purple = () => {
 
 
 
-/*** FAKE TWITTER ***/
+/*** POSTS ***/
 const post = () => {
    let   msj = document.querySelector('#msj').value,
          warning = document.querySelector('.warning')
@@ -126,3 +126,94 @@ const post = () => {
       warning.innerHTML = `<br><p>No puedes postear mensajes vacíos</p>`
    }
 }
+
+
+
+/*** POKE-FAKE-MON ++*/
+let   HP_m1 = 5,
+      HP_m2 = 5,
+      random = 0,
+      m1 = document.querySelector('.m1_render'),
+      m2 = document.querySelector('.m2_render'),
+      HP1 = document.querySelector('.m1_hp_value'),
+      HP2 = document.querySelector('.m2_hp_value'),
+      text = document.querySelector('.panelText'),
+      text2 = document.querySelector('.panelText2'),
+      btn = document.querySelector('.btn-atk'),
+      btn2 = document.querySelector('.btn-atk2')
+
+
+   const attack = () => {
+      btn.classList.add('disabled')
+      btn2.classList.remove('disabled')
+      text.textContent = `Taco-mon a atacado ⚔️`
+      
+      const hit = (max) =>{
+         m1.classList.add('atk')
+         m2.classList.remove('atk2')
+         random = Math.floor(Math.random() * max);
+
+         if(random == 1){
+            --HP_m2
+            text2.textContent = `Chile-mon fue herido 💔`
+            btn.textContent = `Taco-mon`
+            btn2.textContent = `Turno de Chile-mon`
+         }
+         else if(random == 0){
+            text2.textContent = `Chile-mon bloqueó tu ataque 🛡`
+            btn.textContent = `Taco-mon`
+            btn2.textContent = `Turno de Chile-mon`
+         }
+      }
+      hit(2)
+
+      if(HP_m2 == 0){
+         m2.classList.add('fade')
+         text.textContent = `Chile-mon fue abatido 😵`
+         text2.textContent = `Taco-mon gana la pelea 😎`
+         btn.style.display = 'none'
+         btn2.style.display = 'none'
+      }
+
+      HP1.textContent = `${HP_m1}`
+      HP2.textContent = `${HP_m2}`
+   }
+
+   const attack2 = () => {
+      btn2.classList.add('disabled')
+      btn.classList.remove('disabled')
+      text.textContent = `Chile-mon a atacado ⚔️`
+      
+      const hit2 = (max) =>{
+         m2.classList.add('atk2')
+         m1.classList.remove('atk')
+         random = Math.floor(Math.random() * max);
+
+         if(random == 1){
+            --HP_m1
+            text2.textContent = `Taco-mon fue herido 💔`
+            btn2.textContent = `Chile-mon`
+            btn.textContent = `Turno de Taco-mon`
+         }
+         else if(random == 0){
+            text2.textContent = `Taco-mon bloqueó el ataque 🛡`
+            btn2.textContent = `Chile-mon`
+            btn.textContent = `Turno de Taco-mon`
+         }
+      }
+      hit2(2)
+
+      if(HP_m1 == 0){
+         m1.classList.add('fade')
+         text.textContent = `Taco-mon fue abatido 😵`
+         text2.textContent = `Chile-mon gana la pelea 😎`
+         btn.style.display = 'none'
+         btn2.style.display = 'none'
+      }
+
+      HP1.textContent = `${HP_m1}`
+      HP2.textContent = `${HP_m2}`
+   }
+
+   HP1.textContent = `${HP_m1}`
+   HP2.textContent = `${HP_m2}`
