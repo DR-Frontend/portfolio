@@ -160,7 +160,7 @@ let   HP_m1 = 5,
             btn2.textContent = `Turno de Chile-mon`
          }
          else if(random == 0){
-            text2.textContent = `Chile-mon bloqueó tu ataque 🛡`
+            text2.textContent = `Chile-mon bloqueó el ataque 🛡`
             btn.textContent = `Taco-mon`
             btn2.textContent = `Turno de Chile-mon`
          }
