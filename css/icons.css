@@ -3,8 +3,10 @@
    margin: auto;
    margin: 100px auto;
 }
-.icons__wrapp h2{
-   text-align: center;
+.icons__section-logo{
+   height: 250px;
+   display: block;
+   margin: auto;
 }
 .icons__list{
    display: grid;
