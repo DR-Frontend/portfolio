@@ -2,15 +2,10 @@
 .webs{
    margin-top: 100px;
 }
-.webs > img{
+.webs__section-logo{
+   height: 250px;
    display: block;
-   margin: 20px auto;
-   height: 70px;
-}
-.webs > h2{
-   font-size: 5rem;
-   color: var(--html-color);
-   text-align: center;
+   margin: auto;
 }
 .web{
    margin-top: 30px;

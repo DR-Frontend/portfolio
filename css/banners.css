@@ -2,15 +2,10 @@
 .css{
    margin-top: 100px;
 }
-.css > img{
-   height: 100px;
-   display: block;
-   margin: 10px auto;
-}
-.css > h2{
-  font-size: 5rem;
-  text-align: center;
-  color: var(--css-color);
+.css__section-logo{
+  height: 250px;
+  display: block;
+  margin: auto;
 }
 .css__vBanners,
 .css__hBanners{

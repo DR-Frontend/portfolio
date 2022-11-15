@@ -40,9 +40,10 @@ input:focus-visible{
 .js{
    margin: 100px 0 60px;
 }
-.js > h2{
-   font-size: 5rem;
-   color: var(--js-color);
+.js__section-logo{
+   height: 250px;
+   display: block;
+   margin: auto;
 }
 .js__wrapp{
    display: grid;
