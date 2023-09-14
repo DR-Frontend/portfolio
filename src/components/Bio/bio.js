@@ -6,7 +6,7 @@ export const contacto = [
   },
   {
     title: "Cirrículum Vitae",
-    link: "#",
+    link: "../../assets/pdf/CV_DavidRomero_FrontendDesigner.pdf",
     icon: "https://raw.githubusercontent.com/DR-Frontend/portfolio/91dcf8e6ba8eb4720e6f5d4f8bfe9ad601805d27/src/assets/svg/contact_cv.svg",
   },
   {

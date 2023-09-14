@@ -2,7 +2,7 @@ export const exp = [
   {
     id: 1,
     company: "Stratis",
-    logo: "https://dr-frontend.github.io/portfolio/assets/svgs/exp_stratis.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/80a3678d924ac2279fc0bcf6435c7c78a85ca45f/src/assets/svg/exp_stratis.svg",
     position: "Soporte a usuario final en Scotiabank",
     date_start: "May. 2022",
     date_finish: "Jun 2022",
@@ -19,7 +19,7 @@ export const exp = [
   {
     id: 2,
     company: "Geekode Design",
-    logo: "https://dr-frontend.github.io/portfolio/assets/svgs/exp_geekode.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/80a3678d924ac2279fc0bcf6435c7c78a85ca45f/src/assets/svg/exp_geekode.svg",
     position: "Diseñador Frontend",
     date_start: "Ene. 2020",
     date_finish: "Abr. 2022",
@@ -40,7 +40,7 @@ export const exp = [
   {
     id: 3,
     company: "Walmart de México y Centroamérica",
-    logo: "https://dr-frontend.github.io/portfolio/assets/svgs/exp_walmart.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/80a3678d924ac2279fc0bcf6435c7c78a85ca45f/src/assets/svg/exp_walmart.svg",
     position: "Jefe de Departamento",
     date_start: "Feb. 2017",
     date_finish: "Div. 2019",
@@ -58,7 +58,7 @@ export const exp = [
   {
     id: 4,
     company: "Walmart de México y Centroamérica",
-    logo: "https://dr-frontend.github.io/portfolio/assets/svgs/exp_walmart.svg",
+    logo: "",
     position: "Operador Digital",
     date_start: "Feb. 2016",
     date_finish: "Ene. 2017",
