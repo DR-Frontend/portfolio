@@ -1,0 +1,81 @@
+.html{
+  border-bottom: 1px dashed var(--dr-white1);
+}
+.html h2{
+  color: var(--dr-orange1);
+}
+.html--container{
+  padding: 50px 20px;
+}
+.html--webs{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit, 
+    minmax(250px, 1fr)
+    );
+    gap: 20px;
+} 
+.html--web{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.html--info{
+  width: 100%;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--dr-purple2);
+}
+.html--info h4{
+  text-transform: uppercase;
+}
+.html--techs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.html--tech{
+  padding: 0 10px;
+  font-family: 'title';
+  font-size: .8rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: var(--dr-orange1);
+}
+.html--btn{
+  padding: 10px 0;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--dr-white3);
+  border-radius: 10px;
+  transition: .3s ease;
+}
+
+
+
+/* DESKTOP */
+@media(width >= 1024px){
+  .html--web{
+    opacity: .6;
+    transition: .3s ease;
+  }
+  .html--web:hover{
+    opacity: 1;
+    box-shadow: 0px 12px 8px -7px rgba(0,0,0,0.5);
+  }
+  .html--web:hover .html--info{
+    bottom: 0;
+  }
+  .html--info{
+    bottom: -70%;
+    transition: .3s ease;
+    background-color: var(--dr-purple1);
+  }
+  .html--btn:hover{
+    background-color: var(--dr-purple2);
+  }
+}

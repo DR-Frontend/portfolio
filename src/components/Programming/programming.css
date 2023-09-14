@@ -1,0 +1,72 @@
+.js{
+  border-bottom: 1px dashed var(--dr-white1);
+}
+.js--container{
+  padding: 50px 20px;
+}
+.js--container h2{
+  color: var(--dr-orange1);
+}
+.js--wrapp{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.js--code{
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--dr-white3);
+  transition: .3s ease;
+}
+.js--code summary{
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--dr-orange1);
+  cursor: pointer;
+}
+.js--items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.js--items p,
+.js--items input,
+.js--items button{
+  margin-top: 1rem;
+}
+.js--items p{
+  width: 100%;
+  text-align: center;
+}
+.js--items input{
+  width: 50%;
+  font-family: 'text';
+  font-size: 1.125rem;
+  text-align: center;
+}
+.js--items button{
+  font-family: 'text';
+  font-size: 1.125rem;
+  border-radius: 4px;
+  color: var(--dr-white1);
+  background-color: var(--dr-orange1);
+}
+
+
+
+/* COMPROBAR */
+.js--calificar input{
+  width: 90%;
+}
+
+
+/* LIENZO */
+.js--canvas-container{
+  width: 100%;
+}
+.js--canvas{
+  width: 250px;
+  height: 100px;
+  margin: 10px auto;
+  background-color: white;
+}

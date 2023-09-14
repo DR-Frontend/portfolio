@@ -1,0 +1,41 @@
+.design{
+  border-bottom: 1px dashed var(--dr-white1);
+}
+.design--container{
+  padding: 50px 20px;
+}
+.design h2{
+  color: var(--dr-orange1);
+}
+.design--logos{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.design--logos img{
+  border-radius: 10px;
+}
+
+
+
+/* TABLET */
+@media(width >= 768px){
+  .design--logos{
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  }
+}
+
+
+
+/* DESKTOP */
+@media(width >= 1024px){
+  .design--logos img{
+    opacity: .6;
+    transition: .3s ease;
+  }
+  .design--logos img:hover{
+    opacity: 1;
+    box-shadow: 0px 12px 8px -7px rgba(0,0,0,0.5);
+  }
+}

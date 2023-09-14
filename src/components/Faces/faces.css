@@ -1,0 +1,36 @@
+.face{
+  width: 150px;
+  max-width: 200px;
+  height: 150px;
+  max-height: 200px;
+}
+.face__container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.face__1{
+  opacity: 0;
+  z-index: 5;
+}
+.face__2{
+  opacity: 0;
+  z-index: 4;
+}
+.face__3{
+  opacity: 0;
+  z-index: 3;
+}
+.face__4{
+  opacity: 0;
+  z-index: 2;
+}
+.face__5{
+  opacity: 0;
+  z-index: 1;
+}
+.face__item{
+  position: absolute;
+}

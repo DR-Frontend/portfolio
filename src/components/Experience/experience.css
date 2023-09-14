@@ -1,0 +1,56 @@
+.exp{
+  margin: 50px 20px;
+}
+.exp h2{
+  color: var(--dr-orange1);
+}
+.exp--container{
+  margin-top: 1rem;
+}
+.exp--jobs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.exp--job{
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--dr-white3);
+}
+.exp--job h4{
+  color: var(--dr-orange1);
+}
+.exp--logo{
+  height: 30px;
+}
+.exp--position{
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.exp--dates{
+  font-size: .9rem;
+}
+.exp--goals{
+  margin-top: 1rem;
+}
+
+
+
+/* DESKTOP */
+@media (width >= 1024px) {
+  .exp--jobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .exp--job{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .3s ease;
+  }
+  .exp--job:hover{
+    background-color: var(--dr-purple2);
+  }
+}

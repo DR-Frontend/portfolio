@@ -1,0 +1,12 @@
+.gamer img{
+  position: absolute;
+}
+.gamer--pipe{
+  z-index: 3;
+}
+.gamer--mario{
+  z-index: 2;
+}
+.gamer--bkg{
+  z-index: 1;
+}

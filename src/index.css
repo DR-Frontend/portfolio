@@ -1,0 +1,115 @@
+/* PROPIEDADES ROOT */
+:root {
+  --dr-white1: hsl(0, 0%, 93%);
+  --dr-white2: hsl(0, 0%, 82%);
+  --dr-white3: hsla(0, 0%, 82%, 0.4);
+  --dr-black1: hsl(0, 0%, 20%);
+  --dr-black2: hsl(0, 0%, 35%);
+  --dr-purple1: hsl(288, 48%, 26%);
+  --dr-purple2: hsl(288, 46%, 38%);
+  --dr-purple3: hsl(288, 45%, 48%);
+  --dr-orange1: hsl(30, 100%, 50%);
+  --dr-orange2: hsl(27, 100%, 42%);
+  --dr-orange3: hsl(27, 100%, 35%);
+  --dr-html: hsl(18, 87%, 55%);
+  --dr-css: hsl(228, 77%, 52%);
+  --dr-js: hsl(53, 92%, 54%);
+  --dr-react: hsl(195, 91%, 34%);
+  --dr-worpress: hsl(201, 57%, 39%);
+  --dr-bem: hsl(0, 0%, 95%);
+  --dr-sass: hsl(331, 52%, 61%);
+  --dr-gsap: hsl(88, 60%, 51%);
+
+  color: var(--dr-white1);
+  background-color: var(--dr-purple1);
+  
+  font-family: 'text', sans-serif;
+  font-size: 16px;
+  font-synthesis: none;
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+/* TIPOGRAFÍA */
+@font-face {
+  font-family: 'text';
+  src: url(../src/assets/fonts/Dosis-Regular.ttf);
+}
+@font-face {
+  font-family: 'title';
+  src: url(../src/assets/fonts/Dosis-Bold.ttf);
+}
+
+
+
+/* INICIALIZACIÓN */
+*, ::before, ::after{
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  scroll-behavior: smooth;
+}
+h1{
+  font-family: 'title';
+  font-size: 2.5rem;
+}
+h2{
+  font-family: 'title';
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'title';
+  font-size: 2rem;
+}
+h4{
+  font-family: 'title';
+}
+h4,p,b,a,li,span{
+  font-size: clamp(1rem, 1.125rem, 1.5rem);
+}
+b{
+  font-family: 'title';
+}
+i,span{
+  font-style: italic;
+}
+a{
+  color: var(--dr-white1);
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* #root */
+#root{
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 1920px;
+  height: 100dvh;
+  margin: 0 auto;
+}
+
+
+
+/* MEDIA QUERY PARA TABLET */
+@media (width >= 480px) {
+  header{
+    display: none;
+  }
+}
+
+
+
+/* MEDIA QUERY PARA DESKTOP */
+@media (width >= 768px){
+  
+}

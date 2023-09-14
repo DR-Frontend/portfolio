@@ -1,0 +1,9 @@
+.dexter img{
+  position: absolute;
+}
+.dexter--letter{
+  z-index: 2;
+}
+.dexter--bkg{
+  z-index: 1;
+}

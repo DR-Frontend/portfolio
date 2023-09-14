@@ -1,0 +1,43 @@
+.app__container{
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+  'head'
+  'main'
+  'nav';
+}
+header{
+  grid-area: head;
+}
+main{
+  grid-area: main;
+  overflow-y: scroll;
+}
+nav{
+  grid-area: nav;
+}
+
+
+
+/* TABLET */
+@media (width >= 768px){
+  .app__container{
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    'nav nav nav main main main main main main main main main';
+  }
+}
+
+
+
+/* DESKTOP */
+@media (width >= 1024px){
+  .app__container{
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    'nav nav main main main main main main main main main main';
+  }
+}
