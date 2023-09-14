@@ -58,7 +58,7 @@ export const exp = [
   {
     id: 4,
     company: "Walmart de México y Centroamérica",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/80a3678d924ac2279fc0bcf6435c7c78a85ca45f/src/assets/svg/exp_walmart.svg",
     position: "Operador Digital",
     date_start: "Feb. 2016",
     date_finish: "Ene. 2017",

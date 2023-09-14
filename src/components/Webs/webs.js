@@ -8,7 +8,7 @@ export const webs = [
       {info: "wordpress"}
     ],
     web: "https://evotechpro.es/",
-    photo:"https://dr-frontend.github.io/portfolio/assets/imgs/web_evotech.webp",
+    logo:"",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -20,7 +20,7 @@ export const webs = [
       {info: "sass"}
     ],
     web: "https://geekode-design.web.app/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_geekode.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -31,7 +31,7 @@ export const webs = [
         {info: "css"}
     ],
     web: "https://calcoturbos.000webhostapp.com/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_calco.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -42,7 +42,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/dicard/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_dicard.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -53,7 +53,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/enal/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_enal.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -64,7 +64,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://cadpa-armonizadores.web.app/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_cadpa.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -76,7 +76,7 @@ export const webs = [
       {info: "react"}
     ],
     web: "https://dr-frontend.github.io/tamales-nancy/",
-    photo: "https://dr-frontend.github.io/portfolio/assets/imgs/web_tamales.webp",
+    logo: "",
     seo: "David Romero Diseñador Frontend"
   }
 ]
