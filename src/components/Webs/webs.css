@@ -18,17 +18,19 @@
 } 
 .html--web{
   position: relative;
+  border: 1px solid var(--dr-white3);
+  display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
   border-radius: 10px;
 }
 .html--info{
   width: 100%;
   padding: 1rem;
-  position: absolute;
-  bottom: 0;
   background-color: var(--dr-purple2);
 }
 .html--info h4{
+  color: var(--dr-orange1);
   text-transform: uppercase;
 }
 .html--techs{
@@ -38,15 +40,16 @@
 }
 .html--tech{
   padding: 0 10px;
-  font-family: 'title';
-  font-size: .8rem;
+  font-size: .9rem;
   text-transform: uppercase;
   border-radius: 3px;
-  background-color: var(--dr-orange1);
+  border: 1px solid var(--dr-white3);
+  
 }
 .html--btn{
   padding: 10px 0;
   margin-top: 5px;
+  font-family: 'title';
   display: flex;
   justify-content: center;
   background-color: transparent;

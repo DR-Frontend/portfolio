@@ -8,7 +8,7 @@ export const webs = [
       {info: "wordpress"}
     ],
     web: "https://evotechpro.es/",
-    logo:"",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_evotech.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -20,7 +20,7 @@ export const webs = [
       {info: "sass"}
     ],
     web: "https://geekode-design.web.app/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_geekode.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -31,7 +31,7 @@ export const webs = [
         {info: "css"}
     ],
     web: "https://calcoturbos.000webhostapp.com/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_calco.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -42,18 +42,18 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/dicard/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_dicard.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
     id: 5,
-    name: "Anuncios Enal",
+    name: "Enal Anuncios",
     codes: [
       {info: "html"},
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/enal/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_enal.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -64,7 +64,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://cadpa-armonizadores.web.app/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_cadpa.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -76,7 +76,7 @@ export const webs = [
       {info: "react"}
     ],
     web: "https://dr-frontend.github.io/tamales-nancy/",
-    logo: "",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_tamales.svg",
     seo: "David Romero Diseñador Frontend"
   }
 ]

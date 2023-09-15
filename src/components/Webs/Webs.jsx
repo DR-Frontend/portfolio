@@ -12,6 +12,7 @@ export default function Webs(){
 
           {webs.map((tech,i)=>(
             <div className="html--web" key={i}>
+              <img src={tech.logo} className="html--photo" alt={tech.seo}/>
               <div className="html--info">
                 <h4>{tech.name}</h4>
                 <div className="html--techs">
@@ -22,7 +23,6 @@ export default function Webs(){
                 </div>
                 <a href={tech.web} className='html--btn' target='_blank' rel='noreferrer'>VER SITIO</a>
               </div>
-              <img src={tech.photo} className="html--photo" alt={tech.seo}/>
             </div>
           ))}
           

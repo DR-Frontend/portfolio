@@ -20,6 +20,7 @@
 }
 .js--code summary{
   font-size: 1.125rem;
+  font-family: 'title';
   text-transform: uppercase;
   color: var(--dr-orange1);
   cursor: pointer;
