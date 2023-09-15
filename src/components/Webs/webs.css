@@ -24,10 +24,12 @@
   overflow: hidden;
   border-radius: 10px;
 }
+.html--photo{
+  padding: 20px 0;
+}
 .html--info{
   width: 100%;
   padding: 1rem;
-  background-color: var(--dr-purple2);
 }
 .html--info h4{
   color: var(--dr-orange1);
@@ -72,11 +74,6 @@
   }
   .html--web:hover .html--info{
     bottom: 0;
-  }
-  .html--info{
-    bottom: -70%;
-    transition: .3s ease;
-    background-color: var(--dr-purple1);
   }
   .html--btn:hover{
     background-color: var(--dr-purple2);

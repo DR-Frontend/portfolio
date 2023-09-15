@@ -6,7 +6,7 @@ export const contacto = [
   },
   {
     title: "Cirrículum Vitae",
-    link: "../../assets/pdf/CV_DavidRomero_FrontendDesigner.pdf",
+    link: "https://drive.google.com/file/d/1Rz-ScL6K2N1dnjo9RFiVCSBpy4juuVva/view?usp=sharing",
     icon: "https://raw.githubusercontent.com/DR-Frontend/portfolio/91dcf8e6ba8eb4720e6f5d4f8bfe9ad601805d27/src/assets/svg/contact_cv.svg",
   },
   {
@@ -30,7 +30,7 @@ export const items = [
   {
     emoji: "🖥",
     title: "puesto:",
-    description: "Diseñador Frontend,"
+    description: "'Diseñador Frontend',"
   },
   {
     emoji: "🤩",
@@ -38,14 +38,9 @@ export const items = [
     description: "'Frontend, UI, Multimedia',"
   },
   {
-    emoji: "🖌",
-    title: "tecnologías_css:",
-    description: "'Flex & Grid layout, SASS',"
-  },
-  {
     emoji: "💻",
-    title: "tecnologías_js:",
-    description: "'GSAP, React',"
+    title: "tecnologías:",
+    description: "'React, SASS, GSAP, Flex & Grid layout',"
   },
   {
     emoji: "⚙️",
@@ -85,6 +80,6 @@ export const items = [
   {
     emoji: "💬",
     title: "idiomas:",
-    description: "Inglés básico/técnico,"
+    description: "'Inglés básico/técnico',"
   }
 ]

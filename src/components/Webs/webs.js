@@ -8,7 +8,7 @@ export const webs = [
       {info: "wordpress"}
     ],
     web: "https://evotechpro.es/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_evotech.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_evotech.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -20,7 +20,7 @@ export const webs = [
       {info: "sass"}
     ],
     web: "https://geekode-design.web.app/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_geekode.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_geekode.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -31,7 +31,7 @@ export const webs = [
         {info: "css"}
     ],
     web: "https://calcoturbos.000webhostapp.com/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_calco.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_calco.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -42,7 +42,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/dicard/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_dicard.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_dicard.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -53,7 +53,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://dr-frontend.github.io/enal/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_enal.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_enal.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -64,7 +64,7 @@ export const webs = [
       {info: "css"}
     ],
     web: "https://cadpa-armonizadores.web.app/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_cadpa.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_cadpa.svg",
     seo: "David Romero Diseñador Frontend"
   },
   {
@@ -76,7 +76,7 @@ export const webs = [
       {info: "react"}
     ],
     web: "https://dr-frontend.github.io/tamales-nancy/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/6ce15eebe6088d0464d824dc701e5808c17787ca/src/assets/svg/web_tamales.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_tamales.svg",
     seo: "David Romero Diseñador Frontend"
   }
 ]
