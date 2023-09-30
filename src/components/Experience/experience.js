@@ -12,7 +12,7 @@ export const exp = [
       {info: "Asistencia a usuarios del corporativo Scotiabank para soporte técnico básico."}
     ],
     goals:[
-      {info: "Reemplazo en tiempo y forma del equipo obsoleto"},
+      {info: "Reemplazo en tiempo y forma del equipo obsoleto."},
       {info: "Planeación sin contratiempos para sucursales pendientes de nuevo equipo."}
     ]
   },
@@ -27,13 +27,13 @@ export const exp = [
       {info: "Codificar/Maquetar landing/single/multi-pages a diseño web responsivo."},
       {info: "Configurar tiendas virtuales en WordPress (temas y plugins gratiutos)."},
       {info: "Alta, baja o modificación de productos, usuarios u ofertas con WooCommerce."},
-      {info: "Crear animaciones y transiciones para popups y banners con GSAP."},
+      {info: "Banners animados con GSAP."},
       {info: "Diseñar iconografía y logotipos con Adobe Illustrator."},
       {info: "Diseñar mockups en baja/alta resolución con Figma."},
       {info: "Diseñar banners publicitarios con Adobe Photoshop."},
     ],
     goals: [
-      {info: "Desarrollar e implementar proyectos web en tiempo y forma."},
+      {info: "Desarrollar e implementar proyectos en tiempo y forma."},
       {info: "Actualizar y dar mantenimiento requerido por el cliente."}
     ]
   },
@@ -47,11 +47,11 @@ export const exp = [
     description: [
       {info: "Codificar/Maquetar landing-pages para eventos ecommerce de Sam's Club: Hot Sale, Open House y Buen Fin."},
       {info: "Gestionar el homesite de Sam's Club implementando la carga de activos digitales, banners e información al cliente."},
-      {info: "Codificar popups animados para las diversas catergías y productos en oferta."},
+      {info: "Codificar popups animados para las diversas categorías y productos en oferta."},
       {info: "Segmentar usuarios para promociones a clientes específicos."}
     ],
     goals: [
-      {info: "Alcance al plan de ventas del negocio"},
+      {info: "Alcance al plan de ventas del negocio."},
       {info: "Incrementar las conversiones y CTR de productos."}
     ]
   },

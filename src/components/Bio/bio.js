@@ -40,12 +40,17 @@ export const items = [
   {
     emoji: "💻",
     title: "tecnologías:",
-    description: "'React, SASS, GSAP, Flex & Grid layout',"
+    description: "'HTML, CSS, JS, SASS, GSAP, Flex & Grid layout',"
+  },
+  {
+    emoji: "🧩",
+    title: "aprendiendo:",
+    description: "'React',"
   },
   {
     emoji: "⚙️",
     title: "herramientas:",
-    description: "'Terminal, Git, Github, FilleZilla',"
+    description: "'Terminal, FileZilla, Git, Github',"
   },
   {
     emoji: "📐",
@@ -66,11 +71,6 @@ export const items = [
     emoji: "🖱",
     title: "sistemas_operativos:",
     description: "'Mac, Windows',"
-  },
-  {
-    emoji: "🧩",
-    title: "aprendiendo:",
-    description: "'React',"
   },
   {
     emoji: "🧠",
