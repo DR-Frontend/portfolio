@@ -6,7 +6,7 @@ export const contacto = [
   },
   {
     title: "Cirrículum Vitae",
-    link: "https://drive.google.com/file/d/1Rz-ScL6K2N1dnjo9RFiVCSBpy4juuVva/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1MsDZIaOEJii8LB2eEAYIM80pd5FdqC1a/view?usp=sharing",
     icon: "https://raw.githubusercontent.com/DR-Frontend/portfolio/91dcf8e6ba8eb4720e6f5d4f8bfe9ad601805d27/src/assets/svg/contact_cv.svg",
   },
   {
@@ -39,13 +39,8 @@ export const items = [
   },
   {
     emoji: "💻",
-    title: "tecnologías:",
+    title: "tecnologías_web:",
     description: "'HTML, CSS, JS, SASS, GSAP, Flex & Grid layout',"
-  },
-  {
-    emoji: "🧩",
-    title: "aprendiendo:",
-    description: "'React',"
   },
   {
     emoji: "⚙️",
@@ -63,6 +58,11 @@ export const items = [
     description: "'AI, PS, Figma',"
   },
   {
+    emoji: "🧩",
+    title: "aprendiendo:",
+    description: "'React',"
+  },
+  {
     emoji: "⌨️",
     title: "editores:",
     description: "'VSCode, Sublime Text',"
@@ -75,7 +75,7 @@ export const items = [
   {
     emoji: "🧠",
     title: "metodologías:",
-    description: "'Mobile First, BEM, SCRUM',"
+    description: "'BEM, Mobile First, SCRUM',"
   },
   {
     emoji: "💬",

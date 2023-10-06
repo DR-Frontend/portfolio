@@ -20,12 +20,15 @@
   position: relative;
   border: 1px solid var(--dr-white3);
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-between;
   overflow: hidden;
   border-radius: 10px;
 }
 .html--photo{
-  padding: 20px 0;
+  margin: 0 auto;
+  padding: 15px 35px;
 }
 .html--info{
   width: 100%;
@@ -42,8 +45,9 @@
 }
 .html--tech{
   padding: 0 10px;
-  font-size: .9rem;
+  font-size: .75rem;
   text-transform: uppercase;
+  font-family: 'title';
   border-radius: 3px;
   border: 1px solid var(--dr-white3);
   
@@ -74,6 +78,9 @@
   }
   .html--web:hover .html--info{
     bottom: 0;
+  }
+  .html--photo{
+    padding: 20px 35px;
   }
   .html--btn:hover{
     background-color: var(--dr-purple2);
