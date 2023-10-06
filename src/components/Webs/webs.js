@@ -94,7 +94,7 @@ export const webs = [
     ],
     type: "landing-page",
     link: "https://dr-frontend.github.io/mh-landing-page/",
-    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/e009b790ac782136255652a9af1a566acb74f942/src/assets/svg/web_tamales.svg",
+    logo: "https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/web_mh.svg",
     seo: "David Romero Diseñador Frontend"
   },
 ]
