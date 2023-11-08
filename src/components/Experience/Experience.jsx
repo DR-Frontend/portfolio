@@ -26,6 +26,8 @@ export default function Experience(){
     </div>
   ))
 
+  const courses = 0
+
   return(
     <section id="exp" className="exp">
       <h2>Carrera_</h2>
@@ -35,7 +37,12 @@ export default function Experience(){
         <div className="exp--jobs">
           {jobs}
         </div>
+
+        <div className="exp--courses">
+          {courses}
+        </div>
       </div>
+
     </section>
   )
 }
