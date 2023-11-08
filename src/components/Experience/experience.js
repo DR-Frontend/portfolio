@@ -76,7 +76,7 @@ export const courses = [
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
   {
-    name: 'GSAP: Javascript, HTML & CSS',
+    name: 'GSAP: JS, HTML & CSS',
     date: 'Febrero 2023',
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
@@ -86,14 +86,14 @@ export const courses = [
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
   {
-    name: 'JavaScript for Beginners',
+    name: 'JS for Beginners',
     date: 'Enero 2023',
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
   {
     name: 'Ilustración Vectorial',
     date: 'Octubre 2020',
-    logo: '',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_crehana.svg',
   },
   {
     name: 'Master en CSS',
@@ -101,7 +101,7 @@ export const courses = [
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
   {
-    name: 'UI & Web Design using Adobe Illustrator CC',
+    name: 'UI & Web Design using Adobe Illustrator',
     date: 'Febrero 2019',
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },

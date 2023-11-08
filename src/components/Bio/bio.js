@@ -30,56 +30,66 @@ export const items = [
   {
     emoji: "🖥",
     title: "puesto:",
-    description: "'Diseñador Frontend',"
+    description: "Diseñador Frontend"
   },
   {
     emoji: "🤩",
     title: "áreas_de_interés:",
-    description: "'Frontend, UI, Multimedia',"
+    description: "Frontend, UI, Multimedia"
   },
   {
     emoji: "💻",
     title: "tecnologías_web:",
-    description: "'HTML, CSS, JS, SASS, GSAP, Flex & Grid layout',"
+    description: "HTML, CSS, JS, Flex & Grid layout"
   },
   {
     emoji: "⚙️",
     title: "herramientas:",
-    description: "'Terminal, FileZilla, Git, Github',"
+    description: "Terminal, FileZilla, Git, Github"
   },
   {
     emoji: "📐",
     title: "cms:",
-    description: "'WordPress, WooCommerce',"
+    description: "WordPress, WooCommerce"
   },
   {
     emoji: "🖲",
     title: "diseño:",
-    description: "'AI, PS, Figma',"
+    description: "Illustrator, Photoshop, Figma"
   },
   {
-    emoji: "🧩",
-    title: "aprendiendo:",
-    description: "'React',"
-  },
-  {
-    emoji: "⌨️",
-    title: "editores:",
-    description: "'VSCode, Sublime Text',"
-  },
-  {
-    emoji: "🖱",
-    title: "sistemas_operativos:",
-    description: "'Mac, Windows',"
+    emoji: "💭",
+    title: "conocimientos:",
+    description: "GSAP, SASS, Bootstrap"
   },
   {
     emoji: "🧠",
     title: "metodologías:",
-    description: "'BEM, Mobile First, SCRUM',"
+    description: "BEM, Mobile First, SCRUM"
+  },
+  {
+    emoji: "🧩",
+    title: "aprendiendo:",
+    description: "React"
+  },
+  {
+    emoji: "⌨️",
+    title: "editores:",
+    description: "VSCode, Sublime Text"
+  },
+  {
+    emoji: "🖱",
+    title: "sistemas_operativos:",
+    description: "Mac, Windows"
+  },
+  {
+    emoji: "👍",
+    title: "aptitudes:",
+    description: "Trabajo en equipo, Confianza, Autodidacta"
   },
   {
     emoji: "💬",
     title: "idiomas:",
-    description: "'Inglés básico/técnico',"
+    description: "Inglés básico/técnico, Español nativo"
   }
 ]

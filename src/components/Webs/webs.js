@@ -16,7 +16,6 @@ export const webs = [
     codes: [
       {info: "html"},
       {info: "css"},
-      {info: "sass"}
     ],
     type: "single-page",
     link: "https://geekode-design.web.app/",
@@ -90,7 +89,8 @@ export const webs = [
     codes: [
       {info: "html"},
       {info: "css"},
-      {info: "react"}
+      {info: "react"},
+      {info: "práctica"},
     ],
     type: "landing-page",
     link: "https://dr-frontend.github.io/mh-landing-page/",

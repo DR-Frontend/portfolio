@@ -30,7 +30,7 @@ export default function Experience(){
     <div className="course" key={i}>
       <div className="course--info">
         <h4 className='course--name'>{course.name}</h4>
-        <p className="course--date">Fecha: {course.date}</p>
+        <p className="course--date">{course.date}</p>
       </div>
       <img src={course.logo} alt="David Romero : Diseñador Frontend" />
     </div>

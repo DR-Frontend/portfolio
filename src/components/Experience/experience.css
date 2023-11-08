@@ -23,8 +23,7 @@
   border-radius: 10px;
   border: 1px solid var(--dr-white3);
 }
-.exp--job h4,
-.course--name{
+.exp--job h4{
   color: var(--dr-orange1);
 }
 .exp--logo{
@@ -40,14 +39,25 @@
 .exp--goals{
   margin-top: 1rem;
 }
+.courses--list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: 10px;
+}
 .course{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  transition: .3s ease;
 }
 .course img{
-  height: 30px;
+  width: 60px;
+}
+.course--name{
+  font-size: .999rem;
+  color: var(--dr-orange1);
+  text-transform: uppercase;
 }
 
 /* DESKTOP */
@@ -63,7 +73,8 @@
     justify-content: space-between;
     transition: .3s ease;
   }
-  .exp--job:hover{
+  .exp--job:hover,
+  .course:hover{
     background-color: var(--dr-purple2);
   }
 }

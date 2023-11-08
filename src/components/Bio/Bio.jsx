@@ -14,7 +14,7 @@ export default function Bio(){
   return(
     <section id="bio" className="bio">
       <div className="bio--container">
-      <h2>BIO_</h2>
+      <h2>Bio_</h2>
       <h4>Hola soy David Romero</h4>
 
       <section className="bio--profile">
