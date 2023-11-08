@@ -1,10 +1,13 @@
-.exp{
+.exp,
+.courses{
   margin: 50px 20px;
 }
-.exp h2{
+.exp h2,
+.courses h2{
   color: var(--dr-orange1);
 }
-.exp--container{
+.exp--container,
+.courses--container{
   margin-top: 1rem;
 }
 .exp--jobs{
@@ -13,13 +16,15 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-.exp--job{
+.exp--job,
+.course{
   max-width: 600px;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid var(--dr-white3);
 }
-.exp--job h4{
+.exp--job h4,
+.course--name{
   color: var(--dr-orange1);
 }
 .exp--logo{
@@ -35,8 +40,15 @@
 .exp--goals{
   margin-top: 1rem;
 }
-
-
+.course{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.course img{
+  height: 30px;
+}
 
 /* DESKTOP */
 @media (width >= 1024px) {

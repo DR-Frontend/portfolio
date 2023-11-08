@@ -26,16 +26,19 @@ export default function Experience(){
     </div>
   ))
 
-  const diplomas = courses.map((course)=>(
-    <div className="course" key={course.id}>
-      <div>
-        <img src={course.logo} alt="" />
+  const diplomas = courses.map((course,i)=>(
+    <div className="course" key={i}>
+      <div className="course--info">
+        <h4 className='course--name'>{course.name}</h4>
+        <p className="course--date">Fecha: {course.date}</p>
       </div>
+      <img src={course.logo} alt="David Romero : Diseñador Frontend" />
     </div>
   ))
 
   return(
-    <section id="exp" className="exp">
+    <>
+      <section id="exp" className="exp">
       <h2>Carrera_</h2>
       <h4>Experiencia Laboral</h4>
 
@@ -43,12 +46,19 @@ export default function Experience(){
         <div className="exp--jobs">
           {jobs}
         </div>
+      </div>
+    </section>
 
-        <div className="exp--courses">
+    <section id="courses" className="courses">
+      <h2>Certificaciones_</h2>
+      <h4>Cursos online</h4>
+      
+      <div className="courses--container">
+        <div className="courses--list">
           {diplomas}
         </div>
       </div>
-
     </section>
+    </>
   )
 }

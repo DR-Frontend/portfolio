@@ -71,10 +71,38 @@ export const exp = [
 
 export const courses = [
   {
-    id: 1,
-    name: 'Curso de React',
+    name: 'React.JS Crash course',
     date: 'Octubre 2023',
-    company: 'Udemy',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+  {
+    name: 'GSAP: Javascript, HTML & CSS',
+    date: 'Febrero 2023',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+  {
+    name: 'Flat Arts with Adobe Illustrator',
+    date: 'Enero 2023',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+  {
+    name: 'JavaScript for Beginners',
+    date: 'Enero 2023',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+  {
+    name: 'Ilustración Vectorial',
+    date: 'Octubre 2020',
+    logo: '',
+  },
+  {
+    name: 'Master en CSS',
+    date: 'Mayo 2020',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+  {
+    name: 'UI & Web Design using Adobe Illustrator CC',
+    date: 'Febrero 2019',
     logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
   },
 ]
