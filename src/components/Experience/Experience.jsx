@@ -1,5 +1,5 @@
 import './experience.css'
-import { exp } from './experience'
+import { exp, courses } from './experience'
 
 export default function Experience(){
   const jobs = exp.map((job,i)=>(
@@ -26,7 +26,13 @@ export default function Experience(){
     </div>
   ))
 
-  const courses = 0
+  const diplomas = courses.map((course)=>(
+    <div className="course" key={course.id}>
+      <div>
+        <img src={course.logo} alt="" />
+      </div>
+    </div>
+  ))
 
   return(
     <section id="exp" className="exp">
@@ -39,7 +45,7 @@ export default function Experience(){
         </div>
 
         <div className="exp--courses">
-          {courses}
+          {diplomas}
         </div>
       </div>
 

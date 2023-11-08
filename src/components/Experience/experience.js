@@ -68,3 +68,13 @@ export const exp = [
     ]
   }
 ]
+
+export const courses = [
+  {
+    id: 1,
+    name: 'Curso de React',
+    date: 'Octubre 2023',
+    company: 'Udemy',
+    logo: 'https://raw.githubusercontent.com/DR-Frontend/portfolio/master/src/assets/svg/courses_udemy.svg',
+  },
+]
